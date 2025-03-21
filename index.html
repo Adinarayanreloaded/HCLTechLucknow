@@ -18,29 +18,47 @@
 </head>
 
 <body>
-    <div class="scroll-up-btn">
+    <div class="scroll-up-btn">    <head>
+        // ...existing code...
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="HCLTech Lucknow - A World-Class Technology Hub">
+        <!-- Modern CSS reset -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+        // ...existing code...
+    </head>    
+    
+  <body>
+        <div id="loader" class="loader">
+            <div class="loader-content">
+                <svg class="spinner" viewBox="0 0 50 50">
+                    <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+                </svg>
+                <p>Loading HCLTech Lucknow...</p>
+            </div>
+        </div>
+        // ...existing code...
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
         <div class="max-width">
             <div class="logo">
-                <a href="#">Portfolio Website</span></a>
+                <a href="#"><b>Portfolio Website</b></span></a>
             </div>
             <ul class="menu">
-                <li><a href="#Home" class="menu-btn">Home</a></li>
-                <li><a href="#About" class="menu-btn">About</a></li>
-                <li><a href="#Intro" class="menu-btn">Intro</a></li>
-                <li><a href="#Growth" class="menu-btn">Growth</a></li>
-                <li><a href="#Events" class="menu-btn">Events</a></li>
-                <li><a href="#Festivals" class="menu-btn">Festivals</a></li>
-                <li><a href="#Future" class="menu-btn">Future</a></li>
-                <li><a href="#Personal" class="menu-btn">Personal</a></li>
-                <li><a href="#Contact" class="menu-btn">Contact</a></li>
+                <li><a href="#Home" class="menu-btn"><b>Home</b></a></li>
+                <li><a href="#About" class="menu-btn"><b>About</b></a></li>
+                <li><a href="#Intro" class="menu-btn"><b>Intro</b></a></li>
+                <li><a href="#Growth" class="menu-btn"><b>Growth</b></a></li>
+                <li><a href="#Events" class="menu-btn"><b>Events</b></a></li>
+                <li><a href="#Festivals" class="menu-btn"><b>Festivals</b></a></li>
+                <li><a href="#Future" class="menu-btn"><b>Future</b></a></li>
+                <li><a href="#Personal" class="menu-btn"><b>Personal</b></a></li>
+                <li><a href="#Contact" class="menu-btn"><b>Contact</b></a></li>
                 
             </ul>
             <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
+                <i class="fas fa-bars"></i> Menu
+            </div>            
         </div>
     </nav>
 
@@ -285,76 +303,56 @@
     </div>
 </section>
 
-
-<!-- contact section start -->
-    <section class="contact" id="Contact">
-        <div class="max-width">
-            <h2 class="title">
-                Contact Us</h2>
+<!-- Contact Us -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HCLTech</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title"><b>Contact</b></h2>
             <div class="contact-content">
-                <div class="column left">
-                    <div class="text">
-                        Get in Touch</div>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">
-                                    Office</div>
-                                <div class="sub-title">
-                                    HCLTech SEZ Lucknow</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">
-                                    Address</div>
-                                <div class="sub-title">
-                                    SEZ Unit-I, Village Kanjehara & Chack Gajaria Farms, Sultanpur Road, Mastemau, Lucknow, Uttar Pradesh 226002</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">
-                                    Reach Us</div>
-                                <div class="sub-title">
-                                    https://www.hcltech.com/</div>
-                            </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-building"></i>
+                        <h4>Office</h4>
+                        <p><b>HCLTech SEZ Lucknow</b></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Address</h4>
+                        <p><b> Mastemau, Lucknow, UP 226002</b></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4><b>Reach Us</b></h4>
+                        <p><a href="https://www.hcltech.com/" target="_blank">www.hcltech.com</a></p>
+                    </div>
+                </div>    
+                <div class="social-container">
+                    <h4><b>Follow Us</b></h4>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/hcltech/" target="_blank" class="fab fa-instagram"></a>
+                            <a href="https://www.linkedin.com/company/hcltech" target="_blank" class="fab fa-linkedin"></a>
+                            <a href="https://x.com/hcltech" target="_blank" class="fab fa-twitter"></a>
+                            <a href="https://www.facebook.com/HCLTechOfficial" target="_blank" class="fab fa-facebook"></a>
+                            <a href="https://www.youtube.com/user/HCLTechtube" target="_blank" class="fab fa-youtube"></a>
                         </div>
                     </div>
-                </div>
-                <div class="column right">
-                    <div style="font-size: 40px;">
-                        <h4>Social Media</h4>
-                        <a href="https://www.instagram.com/hcltech/" target="_blank" class="fa fa-instagram" style="color:red"></a>
-                        <a href="https://www.linkedin.com/company/hcltech" target="_blank" class="fa fa-linkedin" style="color:blue"></a>
-                        <a href="https://x.com/hcltech" target="_blank" class="fa fa-film" style="color:black"></a>
-                        <a href="https://www.facebook.com/HCLTechOfficial" target="_blank" class="fa fa-facebook" style="color:brown"></a>
-                        <a href="https://www.youtube.com/user/HCLTechtube" target="_blank" class="fa fa-youtube-play" style="color:violet"></a>
-                    </div>
-                        </div>
-                    </form>
+                    
                 </div>
             </div>
         </div>
     </section>
-
-    ;
-
-    <!-- footer section start -->
     <footer>
-        <div style="font-size: 30px;">
-            <span>Created by <a href="https://www.linkedin.com/in/adityanarayansharma/" target="_blank">Aditya Narayan Sharma</a>
-                | <span class="far fa-copyright"></span> 2024-25 All rights
-                reserved.</span>
-        </div>
+        <p><b>Created by</b> <a href="https://www.linkedin.com/in/adityanarayansharma/" target="_blank"><b>Aditya Narayan Sharma</b></a> | &copy; <b>2024-25 All rights reserved.</b></p>
     </footer>
-
-    <!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
-    <script src="script.js"></script>
 </body>
-
 </html>
 
